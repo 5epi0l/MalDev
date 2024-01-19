@@ -94,7 +94,7 @@ proc injectRemote[I, T](shellcode: array[I, T]): void =
     defer:CloseHandle(pHandle)
     defer:CloseHandle(threadH)
 
-    write(stdout, "[+]Clening UP\n")
+    write(stdout, "[+]Cleaning UP\n")
 
 when defined(windows):
 
