@@ -3,7 +3,7 @@
     Author: Sam Sepiol, Twitter: @5epi0l
 
     Description: This is a POC for a stager written in nim that fetches the shellcode from an attacker controlled SMB Server ,  injects the
-    shellcode into the memory space of the current process and execute it. Here, I've used msfvenom to create a shellcode which will execute 
+    shellcode into the memory space of the current process and executes it. Here, I've used msfvenom to create a shellcode which will execute 
     powershell on the target machine to fetch a powershell reverse shell from an attacker controlled HTTP server and execute it in memory 
     using Invoke-Expression. 
     
